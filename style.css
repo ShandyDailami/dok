@@ -198,7 +198,7 @@ section {
 }
 #services {
   width: 100%;
-  height: 100vh;
+  height: 102vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -313,7 +313,7 @@ section {
 }
 #team {
   width: 100%;
-  height: 102vh;
+  height: 103vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
