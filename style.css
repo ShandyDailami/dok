@@ -627,7 +627,7 @@ footer {
 .lock-scroll {
   overflow-y: hidden;
 }
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 850px) {
   header {
     background-size: 75%;
     height: 40vh;
