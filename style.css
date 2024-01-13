@@ -7,6 +7,7 @@
   scroll-behavior: smooth;
   color: #111;
   font-family: 'Poppins', 'sans-serif';
+  overflow-x: hidden;
 }
 header {
   position: relative;
@@ -799,10 +800,6 @@ footer {
   }
 }
 @media screen and (max-width: 600px) {
-  html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-  }
   header {
     height: 100vh;
     background-position-y: top;
