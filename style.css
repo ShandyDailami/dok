@@ -259,6 +259,10 @@ section {
   flex-wrap: wrap;
   align-items: center;
 }
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
 .services-card .card {
   display: flex;
   flex-direction: column;
@@ -879,7 +883,7 @@ footer {
     flex-wrap: nowrap;
   }
   .cards {
-    display: flex;
+    flex-wrap: nowrap;
     justify-content: start;
   }
   .side-card {
