@@ -12,3 +12,7 @@ nav.addEventListener("click", () => {
     body.classList.remove("lock-scroll");
   }, 1000);
 })
+
+const login = () => {
+  window.location = 'login.html'
+}
