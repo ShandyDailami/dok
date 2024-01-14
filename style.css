@@ -836,6 +836,9 @@ footer {
     display: block;
     width: 100%;
   }
+  .slider {
+    overflow: hidden;
+  }
   .card-container {
     justify-content: start;
   }
@@ -882,6 +885,7 @@ footer {
     height: 200px;
     justify-content: start;
     flex-wrap: nowrap;
+    overflow: hidden;
   }
   .cards {
     flex-wrap: nowrap;
