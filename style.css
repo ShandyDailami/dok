@@ -917,7 +917,7 @@ footer {
   .swiper-wrapper {
     display: flex;
     align-items: center;
-    margin-left:60px;
+    margin-left: 50px;
   }
   .navigasi {
     margin: 10px 0;
