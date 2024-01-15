@@ -178,6 +178,77 @@ section {
   background: linear-gradient(to right, #E65924, #FD9C28);
   cursor: pointer;
 }
+.mobile {
+  display: none;
+}
+.diff-swiper-card {
+  padding: 20px 25px;
+  background: linear-gradient(to right, #E65924, #FD9C28);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  transition: all .3s ease;
+}
+.diff-swiper-card:hover {
+  box-shadow: 0 0 5px #111;
+  transform: translate(0, -3px);
+}
+.diff-swiper-card h4 {
+  width: 50%;
+  color: #eee;
+  margin-bottom: 65px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.diff-swiper-card p {
+  margin-top: 5px;
+  font-size: .7rem;
+  color: #eee;
+}
+.swiper-card {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  transition: all .3s ease;
+}
+.swiper-card:hover {
+  transform: translate(0, -3px);
+  box-shadow: 0 0 5px #ffd152;
+}
+.swiper-card h4 {
+  width: 50%;
+  margin-bottom: 22px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #FD9C28;
+}
+.swiper-card .desc {
+  display: flex;
+  margin-bottom: 10px;
+}
+.swiper-card p {
+  margin-top: 5px;
+  font-size: .7rem;
+  color: #FD9C28;
+}
+.swiper-card button {
+  padding: 6px 40px;
+  color: #eee;
+  font-weight: 600;
+  border: none;
+  border-radius: 40px;
+  background: linear-gradient(to right, #E65924, #FD9C28);
+  cursor: pointer;
+}
 #about {
   display: flex;
   align-items: center;
@@ -738,6 +809,9 @@ footer {
     margin-left: 0;
     justify-content: center;
   }
+  .cards {
+    justify-content: center;
+  }
   .side-card {
     margin: 0;
     width: 490px;
@@ -760,8 +834,8 @@ footer {
     height: 45vh;
   }
   .quote-wrapper .card {
-    width: 350px;
-    height: 300px;
+    width: 325px;
+    height: 310px;
   }
   .quote-wrapper .card i {
     margin: 10px 0 5px 20px;
@@ -842,6 +916,17 @@ footer {
   .card-container {
     justify-content: start;
   }
+  .main {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  .swiper-wrapper {
+    display: flex;
+    align-items: center;
+    margin-left:60px;
+  }
   .navigasi {
     margin: 10px 0;
   }
@@ -874,7 +959,7 @@ footer {
     font-size: .8rem;
   }
   #services {
-    height: 110vh;
+    height: 150vh;
     padding: 0 25px;
   }
   .services-wrapper {
@@ -882,13 +967,7 @@ footer {
   }
   .services-card {
     width: 100%;
-    height: 200px;
-    justify-content: start;
-    flex-wrap: nowrap;
-    overflow: hidden;
-  }
-  .cards {
-    flex-wrap: nowrap;
+    height: 600px;
     justify-content: start;
   }
   .side-card {

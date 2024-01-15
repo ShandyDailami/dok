@@ -77,3 +77,22 @@ aside {
   justify-content: center;
   align-items: center;
 }
+aside img {
+  width: 600px;
+}
+@media screen and (max-width: 850px) {
+  aside img {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .form form {
+    width: 85%;
+  }
+  .form button {
+    width: 85%;
+  }
+  aside {
+    display: none;
+  }
+}
