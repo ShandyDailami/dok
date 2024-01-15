@@ -96,3 +96,11 @@ aside img {
     display: none;
   }
 }
+@media screen and (max-width: 325px) {
+  .form h2 {
+    font-size: 2rem;
+  }
+  .form p {
+    padding-left: 20px;
+  }
+}

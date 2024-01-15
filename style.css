@@ -372,14 +372,6 @@ section {
   background: #a23d198e;
 }
 .services-card .diff {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 150px;
-  height: 175px;
-  margin: 10px;
-  border-radius: 10px;
   background: linear-gradient(to right, #E65924, #FD9C28);
 }
 .services-card .diff p {
@@ -872,11 +864,10 @@ footer {
     border-radius: 2px;
   }
 }
+.lock-scroll {
+  overflow-y: hidden;
+}
 @media screen and (max-width: 600px)  {
-  html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-  }
   header {
     height: 100vh;
     background-position-y: top;
@@ -1003,5 +994,93 @@ footer {
   }
   form input, form textarea {
     width: 74%;
+  }
+}
+@media screen and (max-width: 365px) {
+  header {
+    height: 90vh;
+  }
+  nav {
+    padding: 0 20px;
+  }
+  .hero-wrapper {
+    padding: 20px;
+  }
+  .swiper-wrapper {
+    margin-left: 35px;
+  }
+}
+@media screen and (max-width: 325px) {
+  header {
+    height: 110vh;
+  }
+  nav {
+    padding: 0 20px;
+  }
+  .hero-wrapper {
+    padding: 20px;
+  }
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  .swiper-wrapper {
+    margin-left: 15px;
+  }
+  #about {
+    height: 120vh;
+  }
+  .about-wrapper h2 {
+    font-size: 2rem;
+  }
+  .about-content p:nth-child(3) {
+    margin: 10px 0;
+    font-size: .8rem;
+  }
+  .about-content p:nth-child(4) {
+    font-size: .6rem;
+  }
+  #services {
+    height: 230vh;
+  }
+  .services-card .card {
+    width: 125px;
+    height: 150px;
+  }
+  .services-card .card p {
+    font-size: .9rem;
+  }
+  .services-card .card .icon {
+    margin-bottom: 30px;
+  }
+  .circle {
+    margin-top: -25px;
+  }
+  .side-card, .side-card img {
+    width: 265px;
+  }
+  .side-card {
+    height: 340px;
+  }
+  .side-card .content p {
+    font-size: .8rem;
+    line-height: 25px;
+  }
+  .services-card {
+    height: 540px;
+  }
+  #team {
+    height: 250vh;
+  }
+  #quote {
+    height: 170vh;
+  }
+  .quote-wrapper .card {
+    width: 300px;
+  }
+  #contact {
+    height: 110vh;
+  }
+  footer {
+    padding: 0 20px 20px 20px;
   }
 }
