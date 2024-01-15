@@ -1010,6 +1010,18 @@ footer {
   .swiper-wrapper {
     margin-left: 35px;
   }
+  #services {
+    height: 170vh;
+  }
+  #team {
+    height: 190vh;
+  }
+  #quote {
+    height: 150vh;
+  }
+  #contact {
+    height: 110vh;
+  }
 }
 @media screen and (max-width: 325px) {
   header {
