@@ -872,7 +872,7 @@ footer {
     border-radius: 2px;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px)  {
   html, body {
     max-width: 100%;
     overflow-x: hidden;
@@ -960,7 +960,7 @@ footer {
   }
   #services {
     height: 150vh;
-    padding: 0 25px;
+    padding: 0 10px;
   }
   .services-wrapper {
     width: 100%;
