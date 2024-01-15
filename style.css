@@ -180,6 +180,7 @@ section {
 }
 .mobile {
   display: none;
+  overflow-x: hidden;
 }
 .diff-swiper-card {
   padding: 20px 25px;
